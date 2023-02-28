@@ -9,17 +9,17 @@ import { isDark } from '~/logics'
       to="/"
       focusable="false"
     >
-      <img v-show="isDark" src="/logo-dark.svg?url" alt="logo">
-      <img v-show="!isDark" src="/logo.svg?url" alt="logo">
+      <img v-show="isDark" src="/tju-logo.png?url" alt="logo">
+      <img v-show="!isDark" src="/tju-logo.png?url" alt="logo">
     </router-link>
     <nav class="nav">
       <div class="spacer" />
       <div class="right">
-        <router-link to="/talks" class="lt-md:hidden" title="Talks">
-          Talks
+        <router-link to="/researches" class="lt-md:hidden" title="Researches">
+          Researches
         </router-link>
-        <router-link to="/podcasts" class="lt-md:hidden" title="Podcasts">
-          Podcasts
+        <router-link to="/projects" class="lt-md:hidden" title="Projects">
+          Projects
         </router-link>
         <a href="https://github.com/antfu" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
