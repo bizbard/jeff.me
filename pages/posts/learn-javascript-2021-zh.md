@@ -1,11 +1,11 @@
 ---
-title: Cross-modal Priors Guide the 3D Object Reconstruction TMM 2022
-description: Cross-modal Priors Guide the 3D Object Reconstruction TMM 2022
-date: 2022-6-05T00:00:00.000+00:00
+title: Modern Javascript - 2021
+description: Modern Javascript - 2021
+date: 2021-10-01T00:00:00.000+00:00
 lang: zh
-type: research
+type: project
 recording: true
-duration: 1year
+duration: 1month
 ---
 
 > [**Vue Amsterdam 2023**](https://vuejs.amsterdam/)

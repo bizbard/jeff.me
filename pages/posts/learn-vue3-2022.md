@@ -1,10 +1,10 @@
 ---
-title: Deep Conditional Clustering for Point Cloud Registration - ICCV 2023
-description: Deep Conditional Clustering for Point Cloud Registration - ICCV 2023
-date: 2023-03-08T00:00:00.000+00:00
+title: Modern Vue3 - 2022
+description: Modern Vue3 - 2022
+date: 2022-03-01T00:00:00.000+00:00
 lang: en
-type: research
-duration: 4months
+type: project
+duration: 2months
 ---
 
 > [**Vue Amsterdam 2023**](https://vuejs.amsterdam/)

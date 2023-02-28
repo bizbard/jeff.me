@@ -1,9 +1,9 @@
 ---
-title: Point Cloud Completion Guided by Prior Knowledge via Causal - IJCAI 2023
-description: Point Cloud Completion Guided by Prior Knowledge via Causal - IJCAI 2023
-date: 2023-01-18T00:00:00.000+00:00
+title: Modern React - 2022
+description: Modern React - 2022
+date: 2022-08-01T00:00:00.000+00:00
 lang: en
-type: research
+type: project
 duration: 2months
 ---
 
