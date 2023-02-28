@@ -15,7 +15,7 @@ const route = useRoute()
     </button>
 
     <div mb-0 flex="~ gap2 sm:gap3 wrap" text-xl sm:text-3xl>
-      <router-link to="/researches" class="!border-none !font-400" :class="route.path === '/researches' ? '' : inactiveStyle">
+      <router-link to="/posts" class="!border-none !font-400" :class="route.path === '/posts' ? '' : inactiveStyle">
         Researches
       </router-link>
       <router-link to="/projects" class="!border-none !font-400" :class="route.path === '/projects' ? '' : inactiveStyle">

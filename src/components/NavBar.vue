@@ -15,13 +15,14 @@ import { isDark } from '~/logics'
     <nav class="nav">
       <div class="spacer" />
       <div class="right">
-        <router-link to="/researches" class="lt-md:hidden" title="Researches">
-          Researches
+        <router-link to="/posts" title="Researches">
+          <span class="lt-md:hidden">Researches</span>
+          <div i-ri-article-line md:hidden />
         </router-link>
         <router-link to="/projects" class="lt-md:hidden" title="Projects">
           Projects
         </router-link>
-        <a href="https://github.com/antfu" target="_blank" title="GitHub" class="lt-md:hidden">
+        <a href="https://github.com/bizbard" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
         </a>
         <toggle-theme />
