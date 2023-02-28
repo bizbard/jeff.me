@@ -1,4 +1,4 @@
-import { basename, dirname, resolve } from 'path'
+import { basename, resolve } from 'path'
 import { defineConfig } from 'vite'
 import fs from 'fs-extra'
 import Pages from 'vite-plugin-pages'
@@ -17,7 +17,6 @@ import UnoCSS from 'unocss/vite'
 import SVG from 'vite-svg-loader'
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
-import sharp from 'sharp'
 import { slugify } from './scripts/slugify'
 
 const promises: Promise<any>[] = []
