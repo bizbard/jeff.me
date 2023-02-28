@@ -6,4 +6,4 @@ plum: true
 
 <SubNav />
 
-<ListPosts type="talk" />
+<ListPosts type="research" />
