@@ -105,8 +105,6 @@ export default defineConfig({
           if (route === 'index' || frontmatter.image || !frontmatter.title)
             return
           const path = `og/${route}.png`
-          promises.push(genreateOg(frontmatter.title!.replace(/\s-\s.*$/, '').trim(), `public/${path}`))
-          frontmatter.image = `https://jeff.me/${path}`
         })()
         const head = defaults(frontmatter, options)
         return { head, frontmatter }
@@ -167,33 +165,3 @@ export default defineConfig({
     format: 'cjs',
   },
 })
-
-const ogSVg = fs.readFileSync('./scripts/og-template.svg', 'utf-8')
-
-async function genreateOg(title: string, output: string) {
-  if (fs.existsSync(output))
-    return
-
-  await fs.mkdir(dirname(output), { recursive: true })
-  // breakline every 25 chars
-  const lines = title.trim().split(/(.{0,25})(?:\s|$)/g).filter(Boolean)
-
-  const data: Record<string, string> = {
-    line1: lines[0],
-    line2: lines[1],
-    line3: lines[2],
-  }
-  const svg = ogSVg.replace(/\{\{([^}]+)}}/g, (_, name) => data[name] || '')
-
-  // eslint-disable-next-line no-console
-  console.log(`Generating ${output}`)
-  try {
-    await sharp(Buffer.from(svg))
-      .resize(1200 * 1.1, 630 * 1.1)
-      .png()
-      .toFile(output)
-  }
-  catch (e) {
-    console.error('Failed to generate og image', e)
-  }
-}
