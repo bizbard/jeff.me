@@ -106,7 +106,7 @@ export default defineConfig({
             return
           const path = `og/${route}.png`
           promises.push(genreateOg(frontmatter.title!.replace(/\s-\s.*$/, '').trim(), `public/${path}`))
-          frontmatter.image = `https://antfu.me/${path}`
+          frontmatter.image = `https://jeff.me/${path}`
         })()
         const head = defaults(frontmatter, options)
         return { head, frontmatter }
