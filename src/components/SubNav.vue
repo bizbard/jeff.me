@@ -15,17 +15,11 @@ const route = useRoute()
     </button>
 
     <div mb-0 flex="~ gap2 sm:gap3 wrap" text-xl sm:text-3xl>
-      <router-link to="/posts" class="!border-none !font-400" :class="route.path === '/posts' ? '' : inactiveStyle">
-        Blog
+      <router-link to="/researches" class="!border-none !font-400" :class="route.path === '/researches' ? '' : inactiveStyle">
+        Researches
       </router-link>
-      <router-link to="/talks" class="!border-none !font-400" :class="route.path === '/talks' ? '' : inactiveStyle">
-        Talks
-      </router-link>
-      <router-link to="/podcasts" class="!border-none !font-400" :class="route.path === '/podcasts' ? '' : inactiveStyle">
-        Podcasts
-      </router-link>
-      <router-link to="/streams" class="!border-none !font-400" :class="route.path === '/streams' ? '' : inactiveStyle">
-        Streams
+      <router-link to="/projects" class="!border-none !font-400" :class="route.path === '/projects' ? '' : inactiveStyle">
+        Projects
       </router-link>
     </div>
   </div>
