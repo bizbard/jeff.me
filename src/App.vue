@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
   meta: [
-    { property: 'og:title', content: 'Chuanqi Jiao' },
-    { name: 'description', content: 'Chuanqi Jiao\'s Portfolio' },
+    { property: 'og:title', content: 'Jeff' },
+    { name: 'description', content: 'Jeff\'s Portfolio' },
   ],
 })
 </script>

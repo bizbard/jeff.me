@@ -11,7 +11,7 @@ duration: 4months
 
 > [**ICCV 2023**](https://iccv2023.thecvf.com/)
 > 
-> Authors: [Meifeng Guo](guofeng.mei@student.uts.edu.au)、[Chuanqi Jiao](chuanqi_097@tju.edu.cn)、[Weijie Wang](weijie.wang@unitn.it)
+> Authors: [Meifeng Guo](guofeng.mei@student.uts.edu.au)、[Jeff](chuanqi_097@tju.edu.cn)、[Weijie Wang](weijie.wang@unitn.it)
 >
 > Slides: [PDF](/images/clureg.pdf)
 >

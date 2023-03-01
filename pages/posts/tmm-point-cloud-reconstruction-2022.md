@@ -11,7 +11,7 @@ duration: 1year
 
 > [**IEEE TRANSACTIONS ON MULTIMEDIA**](https://ieeexplore.ieee.org/)
 > 
-> Authors: [Weizhi Nie](WeizhiNie@tju.edu.cn)、[Chuanqi Jiao](chuanqi_097@tju.edu.cn)、[Rihao Chang](RihaoChang@tju.edu.cn)、[Lei Qu](LeiQu@tju.edu.cn)、[An-An Liu](An-AnLiu@tju.edu.cn)
+> Authors: [Weizhi Nie](WeizhiNie@tju.edu.cn)、[Jeff](chuanqi_097@tju.edu.cn)、[Rihao Chang](RihaoChang@tju.edu.cn)、[Lei Qu](LeiQu@tju.edu.cn)、[An-An Liu](An-AnLiu@tju.edu.cn)
 >
 > Slides: [PDF](/images/CPG3D.pdf)
 >

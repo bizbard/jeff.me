@@ -11,7 +11,7 @@ duration: 2months
 
 > [**IJCAI 2023**](https://www.ijcai.org/)
 > 
-> Authors: [Weizhi Nie](WeizhiNie@tju.edu.cn)、[Chuanqi Jiao](chuanqi_097@tju.edu.cn)、[Ruidong Chen](RuidongChen@tju.edu.cn)、[Weijie Wang](weijie.wang@unitn.it)、[Meifeng Guo](guofeng.mei@student.uts.edu.au)、[Bruno Lepri](lepri@fbk.eu)、[Nicu Sebe](niculae.sebe@unitn.it)
+> Authors: [Weizhi Nie](WeizhiNie@tju.edu.cn)、[Jeff](chuanqi_097@tju.edu.cn)、[Ruidong Chen](RuidongChen@tju.edu.cn)、[Weijie Wang](weijie.wang@unitn.it)、[Meifeng Guo](guofeng.mei@student.uts.edu.au)、[Bruno Lepri](lepri@fbk.eu)、[Nicu Sebe](niculae.sebe@unitn.it)
 >
 > Slides: [PDF](/images/ijcai2023.pdf)
 >
