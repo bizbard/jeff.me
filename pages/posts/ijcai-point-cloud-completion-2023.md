@@ -39,7 +39,7 @@ However, there are two **drawbacks** to the paradigm:
 ### Contributions
 
 > The main contributions of our work are as follows:
-> 1. We propose a novel memory-based 3D point cloud completion network, Point-PC, to supplement geometric information explicitly from prior knowledge
+> 1. We propose a novel memory-based 3D point cloud completion network, Point-PC, to supplement geometric information explicitly from prior knowledge.
 > 2. We introduce causal inference to further refine the shape prior, so as to eliminate the distraction of irrelevant information.
 > 3. We apply qualitative and quantitative experiments on ShapeNet-55, PCN, and KITTI datasets, which shows that Point-PC improves the accuracy and plausibility of point cloud completion.
 
