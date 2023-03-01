@@ -83,7 +83,7 @@ The framework of CPG3D includes three parts:
 To demonstrate the performance of our approach, we compare our method with several SOTA methods on the ShapeNet dataset. To ensure a fair comparison, all methods are evaluated under the same input images for all experiments. The final experimental results are listed in Table. Higher scores of IoU and F-Score@1% indicate better reconstruction quality.
 
 <figure>
-  <img src="/images/tmm-shapenet-figure" alt="Examples of Single-view 3D Object reconstruction on the ShapeNet Dataset" />
+  <img src="/images/tmm-shapenet-figure.png" alt="Examples of Single-view 3D Object reconstruction on the ShapeNet Dataset" />
   <figcaption>Examples of Single-view 3D Object reconstruction on the ShapeNet Dataset</figcaption>
 </figure>
 
